@@ -59,12 +59,6 @@
 	<style type="text/css">
 		nav.fh5co-nav {
 			position: fixed;
-			/* Pastikan navbar tetap di atas saat di-scroll */
-			width: 100%;
-			/* Navbar akan memenuhi lebar layar */
-			z-index: 1000;
-			/* Pastikan navbar selalu di atas konten lain */
-			top: 0;
 		}
 	</style>
 	<div id="page">
@@ -150,17 +144,17 @@
 				<div class="couple-wrap animate-box">
 					<div class="couple-half">
 						<div class="groom">
-							<img src="images/1.png" alt="groom" class="img-responsive">
+							<img src="images/friskaa.jpg" alt="groom" class="img-responsive">
 						</div>
 						<div class="desc-groom">
 							<h3>Friska Wahyuni Hasri.S.Sos</h3>
-							<p>Putri pertama dari bapak Hasrizal Bakti.Sh & Ibu Sridarma Sustuti</p>
+							<p>Putri pertama dari bapak Hasrizal Bakti.SH & Ibu Sridarma Sustuti</p>
 						</div>
 					</div>
 					<p class="heart text-center"><i class="icon-heart2"></i></p>
 					<div class="couple-half">
 						<div class="bride">
-							<img src="images/2.png" alt="groom" class="img-responsive">
+							<img src="images/fauzan1.jpg" alt="groom" class="img-responsive">
 						</div>
 						<div class="desc-bride">
 							<h3>Fauzan Azmi</h3>
@@ -184,7 +178,7 @@
 					<div class="display-t">
 						<div class="display-tc">
 							<div class="col-md-10 col-md-offset-1">
-								<div class="col-md-6 col-sm-6 text-center">
+								<div class="col-md-4 col-sm-4 text-center">
 									<div class="event-wrap animate-box">
 										<h3>AKAD NIKAH</h3>
 										<div class="event-col">
@@ -200,7 +194,7 @@
 										<p>Kantor KUA Batang Kapas, Pasar Kuok, Kec Batang Kapas, Kab Pesisir Selatan</p>
 									</div>
 								</div>
-								<div class="col-md-6 col-sm-6 text-center">
+								<div class="col-md-4 col-sm-4 text-center">
 									<div class="event-wrap animate-box">
 										<h3>RESEPSI</h3>
 										<div class="event-col">
@@ -214,6 +208,26 @@
 											<span>Juni, 2024</span>
 										</div>
 										<p>Kediaman Mempelai Wanita Limau Sundai IV, K Hilir, Kecamatan Batang Kapas, Kab Pesisir Selatan</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 text-center">
+									<div class="event-wrap animate-box">
+										<h3>Turut Mengundang</h3>
+										<i class="icon-users"></i>
+										<p>Rosna (Adang iros) (ALM Nenek)</p>
+										<p>Hasrizal Bakti,SH (Papa)</p>
+										<p>Sridarma Sustuti (Mama)</p>
+										<p>Afrizal Rajo Indo & Rosi Yetti (Mamak & Tanteh)</p>
+										<p>Maijupri & Siti Nurhaliza (Mamak & Tanteh)</p>
+										<p>Salman & Nisla Wati (Mamak & Tanteh)</p>
+										<p>Srihartina & Yulfaizal (Onsu & Pakcik)</p>
+										<p>Sofia Nahyu Guswita (Adik Kandung)</p>
+										<p>Susriyanti, S.Pdi & Joni Anzar,S.Pi (Cici & Ipar)</p>
+										<p>Mairiza Putri, S.Kep & Hendra,SE (Kakak Ipar)</p>
+										<p>Siska Amelia, M.Pd & Zulmi Alfarobi,S.Pd (Kakak Ipar)</p>
+										<p>Muhammad Razif,ST & Novianti Syahputri,S.Pd (Adik Ipar)</p>
+										<p>Aishah,A.Md Kep (Adik)</p>
+
 									</div>
 								</div>
 							</div>
@@ -268,7 +282,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<p class="text-center"><i>Anda dapat menuju lokasi resepsi kami dengan bantuan peta dibawah ini. Atau anda bisa buka di Google Maps</i></p>
+					<p class="text-center"><i>Anda dapat menuju lokasi resepsi kami dengan bantuan peta dibawah ini. Atau anda bisa buka di Google Maps, alamat lengkapnya di Kediaman Mempelai Wanita Limau Sundai IV, K Hilir, Kecamatan Batang Kapas, Kab Pesisir Selatan</i></p>
 					<div id='maps-view-absen' style='width: 100%; height:500px;'></div>
 				</div>
 			</div>

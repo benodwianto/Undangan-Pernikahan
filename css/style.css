@@ -1055,7 +1055,7 @@ form label {
 }
 
 .couple-half {
-  width: 50%;
+  width: 100%;
   float: left;
 }
 @media screen and (max-width: 768px) {
@@ -1078,8 +1078,8 @@ form label {
   height: 150px;
 }
 .couple-half .groom img, .couple-half .bride img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1088,7 +1088,7 @@ form label {
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
     width: 100%;
-    height: 140px;
+    height: 200px;
   }
   .couple-half .groom img, .couple-half .bride img {
     width: 120px;
