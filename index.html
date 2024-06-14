@@ -509,8 +509,13 @@
 		// Waktu sekarang
 		var now = new Date();
 
-		// Tambahkan selisih milidetik ke waktu sekarang
-		var targetTime = new Date(now.getTime() + 3013200000);
+		// Tetapkan tanggal acara: 27 Juni tahun ini, jam 09:00:00
+		var targetTime = new Date(now.getFullYear(), 5, 27, 9, 0, 0);
+
+		// Jika waktu sekarang melebihi tanggal target, gunakan tahun depan
+		if (now > targetTime) {
+			targetTime.setFullYear(now.getFullYear() + 1);
+		}
 
 		// Konfigurasi simplyCountdown untuk '.simply-countdown-one'
 		simplyCountdown('.simply-countdown-one', {
@@ -533,7 +538,6 @@
 			seconds: targetTime.getSeconds(),
 			enableUtc: false
 		});
-
 		$(document).ready(function () {
 			$('#welcomeModal').modal('show');
 		});
